@@ -4,7 +4,7 @@ import numpy as np
 from enhancer.enhancer import Enhancer
 import io  # Add this import for byte conversion
 
-st.header('Irfan Singam Image Enhancer App')
+st.header('Image Enhancer App')
 st.divider()
 
 image_path = st.file_uploader("Choose file: ", type=['.png', '.jpg', '.jpeg'])
